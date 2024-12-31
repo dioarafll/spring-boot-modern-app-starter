@@ -2,7 +2,7 @@
 
 # Modern Spring Boot Application Starter
 
-This repository provides a modern and professional starter template for building Spring Boot applications with **user authentication**, **2FA**, **JWT**, **phone verification**, and more. It includes essential configurations for **user authentication**, **caching**, **data persistence**, and **input validation**, which are commonly required for modern web applications.
+This repository provides a modern and professional starter template for building Spring Boot applications with **user authentication**, and more. It includes essential configurations for **user authentication**, **caching**, **data persistence**, and **input validation**, which are commonly required for modern web applications.
 
 ## Key Features:
 - **Spring Security**: Secure user authentication and authorization with JWT.
@@ -10,8 +10,6 @@ This repository provides a modern and professional starter template for building
 - **MySQL Integration**: Persistent data storage with MySQL.
 - **Spring Data JPA**: Simplified database operations with JPA repositories.
 - **Spring Boot Starter Validation**: Input validation for DTOs using Java Bean Validation.
-- **2FA (Two-Factor Authentication)**: Adds an additional layer of security.
-- **Phone Verification**: SMS-based verification to ensure user identity.
 
 ## Prerequisites
 
@@ -29,8 +27,8 @@ Before starting with the application, ensure you have the following prerequisite
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-repository/modern-spring-boot-app.git
-cd modern-spring-boot-app
+git clone https://github.com/dioarafll/spring-boot-modern-app-starter.git
+cd spring-boot-modern-app-starter
 ```
 
 ### 2. Configure `application.properties`
@@ -151,9 +149,6 @@ The application includes **user registration**, **login**, and **management feat
 
 Input validation is handled using Spring's `@Valid` annotation in conjunction with the `spring-boot-starter-validation` dependency, ensuring that user inputs are properly validated.
 
-### 2FA and Phone Verification
-
-This project also incorporates **two-factor authentication (2FA)** and **phone verification** using SMS, enhancing the security of user accounts.
 
 ## Guides
 
